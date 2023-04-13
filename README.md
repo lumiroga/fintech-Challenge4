@@ -1,8 +1,21 @@
-# Fintech **Challenge 4**
+# Challenge IV | Risk Return |Fintech <img src="https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_150420000000000001/attachments/590996/columbia.png" height="48" width="48">
+
 ---
 
 This is the 4th challenge for Quantitative Analysis.
+The idea is to create different analysis metrics to evaluate 4 different portfolios considering the S&P 500 index as a base.
 
+The program is based on a Jupyter Lab file which process the four funds and the S&P 500 INDEX from October 2014 to September 2020.
+
+The evaluated funds are: 
+
+- **PAULSON & CO.INC.**            
+- **SOROS FUND MANAGEMENT LLC**    
+- **TIGER GLOBAL MANAGEMENT LLC**    
+- **S&P 500**                        
+- **BERKSHIRE HATHAWAY INC**   
+
+Information is obtained in file: [Funds data set](./Resources/whale_navs.csv)
 
 ## Quantitative Analysis 
 
@@ -22,3 +35,7 @@ The Risk Analysis shows the S&P 500 has the most risk, meanwhile, the Berkshire 
 ## Risk Return Profile
 
 The Risk Return Profile explains that even if Berkshire Hathaway is the most risky portfolio, it gives the best Sharpe Ratio, even better than S&P 500, so it is a better investment option at least from the current metrics.
+
+## Diversify Portfolio
+
+When looking at the covariance we see that the 2nd best fund (considering Sharpe Ratio) is the least sensitive to S&P 500 changes. And looking at the volatility at the beginning of the challenge, we can tell **Tiger Global** seems to be the best investment option judging from the information we get at the challenge.
