@@ -41,7 +41,7 @@ This module helps abstracting the OS discrepancies between folder structures and
 
 ### Numpy
 
-This module helpswith Math calculations, particulary Square Root for Annualized Standar Deviation
+This module helps with Math calculations, particulary Square Root for Annualized Standar Deviation
 
 ---
 
